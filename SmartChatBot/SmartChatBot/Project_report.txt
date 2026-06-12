@@ -1,0 +1,84 @@
+SMARTCHATBOT
+
+AI-Powered Student Assistant
+
+Author:
+Abhinaya Bandari
+
+Technology Stack:
+Java
+JavaFX
+MySQL
+JDBC
+Maven
+CSS
+
+---
+
+PROJECT OBJECTIVE
+
+The objective of SmartChatBot is to provide students with an intelligent desktop assistant capable of helping with study planning, placement preparation, internship guidance, resume analysis, and academic support. The system uses JavaFX for the graphical user interface and MySQL for persistent data storage.
+
+---
+
+FEATURES
+
+• Self-Learning Chatbot
+• Runtime Memory System
+• Intent Detection
+• Sentiment Analysis
+• Study Plan Generator
+• Resume Analyzer
+• Placement Guidance
+• Internship Guidance
+• Knowledge Base Viewer
+• Analytics Dashboard
+• Chat History Storage
+
+---
+
+TECHNOLOGIES USED
+
+Frontend:
+JavaFX
+CSS
+
+Backend:
+Java
+
+Database:
+MySQL
+JDBC
+
+Build Tool:
+Maven
+
+---
+
+DATABASE DESIGN
+
+Database Name:
+chatbot_db
+
+Tables:
+
+1. faq
+2. learned_data
+3. chat_history
+
+---
+
+FUTURE ENHANCEMENTS
+
+• Voice Assistant
+• OpenAI API Integration
+• Dark Mode
+• Speech Recognition
+• PDF Resume Upload
+• Advanced Analytics
+
+---
+
+CONCLUSION
+
+SmartChatBot successfully combines artificial intelligence concepts, database management, and desktop application development into a single student-assistance platform. The project demonstrates practical implementation of JavaFX, JDBC, and MySQL while solving real-world student needs.

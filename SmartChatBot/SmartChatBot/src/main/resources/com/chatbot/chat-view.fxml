@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<HBox prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.chatbot.ChatController">
+    <children>
+        <VBox prefWidth="480.0" spacing="10.0" style="-fx-padding: 15;">
+            <children>
+                <ScrollPane fx:id="scrollPane" fitToWidth="true" prefHeight="380.0" styleClass="chat-scroll">
+                    <content>
+                        <VBox fx:id="chatDisplay" spacing="10.0" />
+                    </content>
+                </ScrollPane>
+                <HBox spacing="10.0">
+                    <children>
+                        <TextArea fx:id="inputArea" prefHeight="50.0" prefWidth="360.0" promptText="Type a question or slash command (e.g., /save Note context)..." wrapText="true" />
+                        <Button onAction="#handleSend" prefHeight="50.0" prefWidth="80.0" text="Send" />
+                    </children>
+                </HBox>
+            </children>
+        </VBox>
+        <VBox prefWidth="220.0" spacing="15.0" style="-fx-background-color: #1e1e24; -fx-padding: 15;">
+            <children>
+                <Label text="Smart Controls" style="-fx-text-fill: white; -fx-font-weight: bold; -fx-font-size: 14;" />
+                <ToggleButton fx:id="modeToggle" onAction="#handleModeToggle" text="Switch to Creative Mode" prefWidth="190.0"/>
+                <Separator />
+                <Label fx:id="statusLabel" text="Active Mode: Technical Workspace" style="-fx-text-fill: #a0a0a5;" wrapText="true" />
+                <Separator />
+                <Label text="Quick Actions:" style="-fx-text-fill: white;" />
+                <Button text="📚 Knowledge Base"
+                        onAction="#openKnowledgeBase"/>
+                <Button text="📊 Analytics"
+                        onAction="#openAnalytics"/>
+                <Label text="• Type '/save [text]' to write notes straight to a local text file." style="-fx-text-fill: #8a8ab0;" wrapText="true" />
+            </children>
+        </VBox>
+    </children>
+</HBox>
