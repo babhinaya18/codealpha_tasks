@@ -1,0 +1,29 @@
+=================================================
+               VS SYSTEM STUDENT REPORT          
+=================================================
+
+CLASS SUMMARY STATISTICS:
+----------------------------------
+Total Registered Students: 4
+Class Performance Average: 92.25 / 100.00
+Highest Grade in Class   : 97 Points
+Lowest Grade in Class    : 88 Points
+Class Topper Student Name: Ashu
+
+GRADE SPECTRUM DISTRIBUTION SPREAD:
+  Grade A: 2 records found (50.0%)
+  Grade B: 2 records found (50.0%)
+  Grade C: 0 records found (0.0%)
+  Grade D: 0 records found (0.0%)
+  Grade F: 0 records found (0.0%)
+
+COMPREHENSIVE STUDENT RECORD ENTRIES LIST:
+=================================================
+ID         NAME                 SUBJECT         GRADE  SCORE
+-------------------------------------------------
+STU-0001   Abhi                 math            B      88   
+STU-0002   chinnu               C++             B      89   
+STU-0003   kanna                Java            A      95   
+STU-0004   Ashu                 python          A      97   
+=================================================
+                [END OF VS SYSTEM REPORT]        

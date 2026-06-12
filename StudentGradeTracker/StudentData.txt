@@ -1,0 +1,4 @@
+STU-0001,Abhi,math,B,88
+STU-0002,chinnu,C++,B,89
+STU-0003,kanna,Java,A,95
+STU-0004,Ashu,python,A,97
